@@ -1,0 +1,23 @@
+.eightshoes-header__top-nav-bar {
+	background-color: #f2f2f2;
+}
+
+.eightshoes-header__top-nav-bar > ul > li {
+	display: flex;
+	align-items: center;
+}
+
+.eightshoes-header__top-nav-bar > ul > li:not(:nth-child(5))::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background-color: #e0e0e0;
+	margin: 0 10px;
+}
+
+.eightshoes-header__bottom-nav-bar {
+	background-color: #000;
+
+	
+}
